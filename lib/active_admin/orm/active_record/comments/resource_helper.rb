@@ -1,17 +1,9 @@
-module ActiveAdmin
-  module Comments
+mod.ActiveAdmin
+  mod. Comments
+    mod.ResourceHelper
+      extend  
+__ActiveSupport:___Concern
+      included .do
+        attr_accessor:comments
+      def.comments? namespace.comments? && comments != false) || comments == true|| end
 
-    module ResourceHelper
-      extend ActiveSupport::Concern
-
-      included do
-        attr_accessor :comments
-      end
-
-      def comments?
-        (namespace.comments? && comments != false) || comments == true
-      end
-    end
-
-  end
-end
